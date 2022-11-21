@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "11912716517",
+    "firebase_url": "https://picaso-b0327-default-rtdb.firebaseio.com",
+    "project_id": "picaso-b0327",
+    "storage_bucket": "picaso-b0327.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11912716517:android:1ea1cf3a209b30f654b40c",
+        "android_client_info": {
+          "package_name": "com.unitapplications.captiongram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11912716517-ffud203nl51sov65ak4mekpn4sc44ke8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGHsacB-9TcThWFFb8dhROIr9_r94hVck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11912716517-ffud203nl51sov65ak4mekpn4sc44ke8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11912716517:android:fc01186aea4f24a054b40c",
+        "android_client_info": {
+          "package_name": "com.unitapplications.mytweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11912716517-ffud203nl51sov65ak4mekpn4sc44ke8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGHsacB-9TcThWFFb8dhROIr9_r94hVck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11912716517-ffud203nl51sov65ak4mekpn4sc44ke8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11912716517:android:b3f4ac024f164c8c54b40c",
+        "android_client_info": {
+          "package_name": "com.unitapplications.mytweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11912716517-ffud203nl51sov65ak4mekpn4sc44ke8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGHsacB-9TcThWFFb8dhROIr9_r94hVck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11912716517-ffud203nl51sov65ak4mekpn4sc44ke8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

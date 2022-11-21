@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@color/grey_900" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_weight="11"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imran Ali"
+                android:textColor="@color/black"
+                android:drawableEnd="@drawable/ic_verified_svgrepo_com"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/username_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="crazy0imran"
+                android:textColor="@color/grey_900"
+                android:textSize="13sp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/twitter_logo"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+
+            android:src="@drawable/ic_twitter_svgrepo_com__1_" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tweet_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Seekh kar gayi hai vo mohabbat mujhse"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:12 AM Jul 24,2004"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/grey_900"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tweet_tv" />
+
+    <TextView
+        android:id="@+id/platform_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:text="Twitter with Iphone"
+        android:textColor="@color/blue"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/dateTime"
+        app:layout_constraintTop_toBottomOf="@+id/tweet_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

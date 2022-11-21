@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Basic Tweet Maker</string>
+    <string name="edit_profile"> <u>Edit Profile</u> </string>
+</resources>
